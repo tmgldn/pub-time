@@ -1,5 +1,5 @@
 import { execSync } from "node:child_process";
-import { readFileSync, rmdirSync, lstatSync } from "node:fs";
+import { readFileSync, rmSync, lstatSync } from "node:fs";
 import { createInterface } from "node:readline";
 import { get } from "node:https";
 
@@ -10,7 +10,7 @@ export const read = (...args: Parameters<typeof readFileSync>): string => {
   return readFileSync(...args).toString();
 };
 export const remove = (path: string) => {
-  return rmdirSync(path, { recursive: true });
+  return rmSync(path, { recursive: true, force: true });
 };
 export const isFile = (path: string) => {
   try {
