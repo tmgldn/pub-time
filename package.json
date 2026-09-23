@@ -14,7 +14,7 @@
   },
   "type": "module",
   "bin": {
-    "pub-time": "./dist/cli/index.mjs"
+    "pub-time": "dist/cli/index.mjs"
   },
   "engines": {
     "node": ">=16.14.0",
