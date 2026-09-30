@@ -8,6 +8,9 @@
 ![npm type definitions](https://img.shields.io/npm/types/pub-time)
 ![license](https://img.shields.io/npm/l/pub-time)
 
+> **This package will not receive any further updates.** Its functionality is being integrated into
+> a single package, [`lib-easy`](https://www.npmjs.com/package/lib-easy).
+
 A much better `npm publish`, that:
 
 - performs automatic semantic release versioning, like
