@@ -3,7 +3,7 @@ import path from "node:path";
 import { execSync } from "node:child_process";
 import { validate } from "./lib/npmName";
 import { getPackageRoot } from "./lib/package";
-import { deleteFolder, readInput } from "easier-node";
+import { deleteFolder, readInput } from "./lib/utils";
 import { checkDirectory } from "./lib/checkDirectory";
 
 const escapeRegExp = (str: string): string => {

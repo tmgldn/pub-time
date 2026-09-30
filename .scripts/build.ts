@@ -12,7 +12,7 @@ import {
   copyFile,
   splitPath,
   deleteFile,
-} from "easier-node";
+} from "./lib/utils";
 import { join, dirname } from "node:path/posix";
 import { build } from "xnr";
 import { checkDirectory } from "./lib/checkDirectory";

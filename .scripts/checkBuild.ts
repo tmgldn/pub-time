@@ -1,4 +1,4 @@
-import { isFile } from "easier-node";
+import { isFile } from "./lib/utils";
 import { execSync } from "node:child_process";
 import fs from "node:fs/promises";
 import { join } from "node:path/posix";

@@ -1,5 +1,5 @@
 import { execSync, exec } from "node:child_process";
-import { delay, dnsLookup, isFile, readFile, readInput, deleteAny, writeFile } from "easier-node";
+import { delay, dnsLookup, isFile, readFile, readInput, deleteAny, writeFile } from "./lib/utils";
 import { firstIsBefore, parseVersion } from "./lib/version";
 import { getPackageRoot, getPackageJson } from "./lib/package";
 
